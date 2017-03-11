@@ -9,12 +9,14 @@ android {
             storePassword 'android'
         }
     }
-    compileSdkVersion 22
+    compileSdkVersion 23
     buildToolsVersion "23.0.1"
+    useLibrary 'org.apache.http.legacy'
+
     defaultConfig {
         applicationId "cn.byr.bbs.sdkdemo"
-        minSdkVersion 14
-        targetSdkVersion 21
+        minSdkVersion 16
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }
