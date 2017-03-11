@@ -9,8 +9,8 @@ android {
             storePassword 'android'
         }
     }
-    compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 22
+    buildToolsVersion "23.0.1"
     defaultConfig {
         applicationId "cn.byr.bbs.sdkdemo"
         minSdkVersion 14
